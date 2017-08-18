@@ -508,10 +508,7 @@ exports[`Storyshots Info Addon decoratorInfo 1`] = `
             "borderRadius": "2px",
             "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
             "color": "#444",
-            "fontFamily": "
-              -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
-              \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
-            ",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
@@ -560,29 +557,11 @@ exports[`Storyshots Info Addon decoratorInfo 1`] = `
             }
           }
         >
-          <p
-            style={
-              Object {
-                "WebkitFontSmoothing": "antialiased",
-                "color": "#444",
-                "fontFamily": "
-                  -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
-                  \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
-                ",
-                "fontSize": "15px",
-              }
-            }
-          >
+          <p>
             Use the 
             <a
               href="https://github.com/storybooks/storybook/tree/master/addons/info"
-              rel="noopener noreferrer"
-              style={
-                Object {
-                  "color": "#3498db",
-                }
-              }
-              target="_blank"
+              title={null}
             >
               info addon
             </a>
@@ -1031,6 +1010,29 @@ exports[`Storyshots Info Addon inline JSX description 1`] = `
   "
   
 </div>
+`;
+
+exports[`Storyshots Navigation Menu link 1`] = `
+<div
+  className="css-t9df35"
+>
+  <a
+    className="css-1enjukp"
+    href="/"
+    onClick={[Function]}
+  >
+    Menu link item
+  </a>
+</div>
+`;
+
+exports[`Storyshots Navigation Routed link 1`] = `
+<a
+  href="/"
+  onClick={[Function]}
+>
+  Try clicking with different mouse buttons and modifier keys (shift/ctrl/alt/cmd)
+</a>
 `;
 
 exports[`Storyshots Some really long story kind description with text 1`] = `
